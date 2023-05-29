@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: #fff;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.productos {
+  flex-basis: 70%;
+}
+
+.producto {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.producto img {
+  display: block;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+.carrito {
+  background-color: #eee;
+  flex-basis: 25%;
+  padding: 20px;
+}
+
+.carrito button {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
